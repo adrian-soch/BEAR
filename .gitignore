@@ -50,4 +50,3 @@ qtcreator-*
 # Catkin custom files
 CATKIN_IGNORE
 CMakeLists.txt
-ros-i2cpwmboard/
