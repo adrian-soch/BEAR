@@ -1,0 +1,13 @@
+<launch>
+
+    <include file="$(find teleop_twist_xbox1_joy)/launch/teleop_twist_xbox1_joy.launch"/>
+
+    <node pkg="joy" name="joy_node" type="joy_node" output="screen">
+    </node>
+
+    <include file="$(find i2cpwm_board)/launch/i2cpwm_node.launch"/>
+
+    <node pkg="donkey_car" name="low_level_donkey" type="ll_donkey_control.py" output="screen">
+    </node>
+
+</launch>
