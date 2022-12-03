@@ -1,4 +1,7 @@
 # BEAR
+
+> Not working on this right now
+
 Barely Even Autonomous Robot (BEAR) is a rc car controlled by an RPi running ROS and OpenCV.
 
 ### Initial OpenCV Development in [tracking_webcam](https://github.com/adrian-soch/tracking_webcam).
